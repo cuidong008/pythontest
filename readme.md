@@ -1,0 +1,26 @@
+# pytorch
+
+pytorch目录存放的是pytorch的一些实例
+
+- transfer_learning_tutorial.py 是迁移学习的实例，进行蚂蚁和蜜蜂的图像识别
+
+# TensorFlow
+
+tensorflow目录存放的是TensorFlow的实例
+
+- tensorflow219是在TensorFlow 2.19版本里面运行的实例，下面是无法执行成功的实例
+integrated_gradients.ipynb
+pandas_dataframe.ipynb
+data_augmentation.ipynb
+cyclegan.ipynb
+actor_critic.ipynb
+Probabilistic_Layers_Regression.ipynb
+quickstart.ipynb
+segmentation.ipynb
+sngp.ipynb
+beginner_colab.ipynb
+text_classification_with_hub.ipynb
+transfer_learning_audio.ipynb
+transfer_learning_audio.ipynb
+transfer_learning_with_hub.ipynb
+transfer_learning.ipynb

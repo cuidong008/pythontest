@@ -1,0 +1,28 @@
+[
+  {
+    "label": "pytorch示例",
+    "image": "harbor.aix.com:8443/library/pytorch:2.3.1-py3.10.15-cuda12.1.0_v1",
+    "cmd": [
+      "bash",
+      "-c",
+      "python3 -m nbconvert --to notebook --execute pytorch/a.ipynb --output /workspace/priv/workoutput.ipynb"
+    ],
+    "env": {},
+    "gpus": 1,
+    "pubDir": "/Users/mac/aix/pub",
+    "privDir": "/Users/mac/aix/priv"
+  },
+  {
+    "label": "tensorflow示例",
+    "image": "harbor.aix.com:8443/library/tensorflow-sshd:2.14.0-cuda12.4-cudnn9-runtime",
+    "cmd": [
+      "bash",
+      "-c",
+      "python3 -m nbconvert --to notebook --execute pytorch/a.ipynb --output /workspace/priv/workoutput.ipynb"
+    ],
+    "env": {},
+    "gpus": 1,
+    "pubDir": "/Users/mac/aix/pub",
+    "privDir": "/Users/mac/aix/priv"
+  }
+]
